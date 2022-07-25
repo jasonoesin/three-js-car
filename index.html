@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" type="module"></script>
+    <title>JS22-1 Qualification Computer Graphics</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 11px;
+            font-family: 'Montserrat', sans-serif;
+            user-select: none;
+        }
+
+        .card {
+            position: absolute;
+            margin: 20px;
+            margin-top: 40px;
+            width: 300px;
+            height: 200px;
+        }
+
+        .card-background {
+            background-color: black;
+            width: 300px;
+            height: 200px;
+            opacity: 0.5;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            position: absolute;
+        }
+
+        #title {
+            position: relative;
+            padding: 20px;
+            color: #E8E7E5;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        #ol {
+            padding-left: 40px;
+            position: relative;
+            color: #E8E7E5;
+            line-height: 1.6;
+        }
+
+        #ol li {
+            font-size: 13px;
+            font-weight: 400;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-background">
+
+        </div>
+        <h1 id="title">Instructions</h1>
+        <ol id="ol">
+            <li>Use [WASD] to move the car around</li>
+            <li>[Space] to change camera perspective</li>
+            <li>Press the lamp to enable/disable light</li>
+            <li>Use left click and hold to rotate camera</li>
+            <li>Use right click and hold to pan camera</li>
+        </ol>
+    </div>
+
+</body>
+
+</html>
